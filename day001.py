@@ -1,4 +1,4 @@
-#Day 001
+#Day 1
 
 macbook = "\U0001F4BB"
 smile = "\U0001f604"
