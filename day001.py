@@ -2,7 +2,7 @@
 
 macbook = "\U0001F4BB"
 smile = "\U0001f604"
-print("")
+print("🇸🇦")
 for i in range(4):
     print(smile, end="")
     if i == 3:
