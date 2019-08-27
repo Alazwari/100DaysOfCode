@@ -11,3 +11,5 @@ Abdulrahman Alazwari
 4. [Fourth Day اليوم الرابع](https://github.com/Alazwari/100DaysOfCode/blob/master/day004.py)
 5. [Fifth Day اليوم الخامس](https://github.com/Alazwari/100DaysOfCode/blob/master/day005.py)
 6. [Fifth Day اليوم السادس](https://github.com/Alazwari/100DaysOfCode/blob/master/day006.py)
+7. [Fifth Day اليوم السابع](https://github.com/Alazwari/100DaysOfCode/blob/master/day007.py)
+8. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day008.py)

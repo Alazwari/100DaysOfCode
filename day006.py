@@ -1,3 +1,5 @@
+#Day 6
+
 x = input('Inter a number to covert it to float, integre and string\n')
 f = float(x)
 i = int(x)
