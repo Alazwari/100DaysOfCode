@@ -7,11 +7,11 @@ class Student:
     def add_group(self, student):
         self.group.extend(student)
         return self.group
-    def add_to_position(self, student, position):
-        self.group.insert(student, position)
+    def add_to_position(self, position, student):
+        self.group.insert(position, student)
         return self.group
-    def delete_first(self):
-        self.group.remove()
+    def delete_first(self, student):
+        self.group.remove(student)
         return self.group
     def delete_position(self, position):
         self.group.pop(position)
@@ -20,8 +20,7 @@ class Student:
         self.group.clear()
         return self.group
     def count_name(self, student):
-        self.group.count(student)
-        return self.group
+        return self.group.count(student)
     def check_name(self, student):
         if student in self.group:
             print(f'{student} is in the group')
