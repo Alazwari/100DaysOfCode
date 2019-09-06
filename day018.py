@@ -22,4 +22,4 @@ And there are {code.count_name('python')} python in the list.""")
 
 #2
 languages = ['java', 'python', 'swift']
-[print('python in the list') if language == 'python' else '' for language in languages]
+[print('python is in the list') if language == 'python' else '' for language in languages]
