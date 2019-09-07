@@ -21,3 +21,6 @@ Abdulrahman Alazwari
 14. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day014.py)
 15. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day015.py)
 16. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day016.py)
+17. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day017.py)
+18. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day018.py)
+19. [Fifth Day اليوم الثامن](https://github.com/Alazwari/100DaysOfCode/blob/master/day019.py)
