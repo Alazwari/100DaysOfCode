@@ -1,0 +1,68 @@
+<Num@Button>:
+    font_size: 25
+    bold: True
+<Col@GridLayout>:
+    cols: 4
+
+<day023>:
+GridLayout:
+    rows: 2
+    GridLayout:
+        id: tx
+        size_hint_y: None
+        height: '100dp'
+        rows: 2
+        multiline: False
+        TextInput:
+            text: ''
+        # Label:
+        #     text: 'fff'
+        #     background_color: 1, 0, 0, 1
+    GridLayout:
+        rows: 5
+        Col:
+            Num:
+                text: '7'
+            Num:
+                text: '8'
+            Num:
+                text: '9'
+            Num:
+                text: '+'
+        Col:
+            Num:
+                text: '4'
+            Num:
+                text: '5'
+            Num:
+                text: '6'
+            Num:
+                text: '-'
+        Col:
+            Num:
+                text: '1'
+            Num:
+                text: '2'
+            Num:
+                text: '3'
+            Num:
+                text: '*'
+        Col:
+            Num:
+                text: 'AC'
+            Num:
+                text: '0'
+            Num:
+                text: '.'
+            Num:
+                text: '/'
+        Col:
+            Num:
+                text: '('
+                size_hint_x: 10
+            Num:
+                text: ')'
+                size_hint_x: 10
+            Num:
+                text: '='
+                size_hint_x: 20
