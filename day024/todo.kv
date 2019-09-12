@@ -1,0 +1,24 @@
+#Day 24
+<Todo>:
+    rows: 2
+    size_hint_y: 1
+    GridLayout:
+        cols: 2
+        size_hint_x: 9
+        TextInput:
+            text: ''
+            id: txt
+            size_hint_x: 80
+        Button:
+            size_hint_x: 20
+            text: 'Add ToDo'
+            on_press: root.todo(txt.text, items.item_strings)
+    
+    ListView:
+        padding: 20
+        spacing: 20
+        size_hint_y: 9
+        id: items
+        item_strings: []
+        text_size: 32
+        font_size: 50
