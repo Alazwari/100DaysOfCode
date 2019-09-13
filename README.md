@@ -28,3 +28,5 @@ Abdulrahman Alazwari
 21. [Day 21 اليوم](https://github.com/Alazwari/100DaysOfCode/blob/master/day021)
 22. [Day 22 اليوم](https://github.com/Alazwari/100DaysOfCode/blob/master/day022)
 23. [Day 23 اليوم](https://github.com/Alazwari/100DaysOfCode/blob/master/day023)
+24. [Day 24 اليوم](https://github.com/Alazwari/100DaysOfCode/blob/master/day024)
+25. [Day 25 اليوم](https://github.com/Alazwari/100DaysOfCode/blob/master/day025)

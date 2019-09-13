@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <img src="https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF.jpg" class="img-thumbnail" alt="" width="200px" srcset="">
+    <h1>Task Master</h1>
+    {% if tasks|length < 1 %}
+        <div class="alert alert-danger" role="alert">There are no tasks yet</div>
+    {% else %}
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">Task</th>
+                <th scope="col">Date</th>
+                <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for task in tasks %}
+                <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.date_created.date() }}</td>
+                <td>
+                <a href="/delete/{{ task.id }}"><button type="button" class="btn btn-danger">حذف</button></a>
+
+                <a href="/update/{{ task.id }}"><button type="button" class="btn btn-warning">تعديل</button></a>
+                </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+    {% endif %}
+        </table>
+
+    <form class="form-inline" action="/" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="content" class="sr-only">Password</label>
+            <input type="text" name='content' class="form-control" id="content" placeholder="Add A Task">
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Add</button>
+    </form>
+</div>
+
+
+{% endblock %}
+
