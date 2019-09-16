@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 data = json.load(open("day028/data.json"))
-
+print('XX to close the program:')
 def translate(w):
     w = w.lower()
     if w in data:
@@ -22,7 +22,7 @@ def translate(w):
         return "The word doesn't exist. Please double check it."
 
 while True:
-    word = input("Enter a word, or XX to clode the program: ")
+    word = input("Enter a word: ")
     output = translate(word)
 
     if word != 'XX':
