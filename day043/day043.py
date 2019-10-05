@@ -7,7 +7,7 @@ class Car:
         self.name = name
         self.model = model
         self.color = color
-        print(f'{name} car is {model}, and its color is {color}.')
+        print(f'{name} thing is {model}, and its color is {color}.')
 
 first_car = Car('First', 'BMW', 'Black')
 second_car = Car('Second', 'Nisan', 'White')
