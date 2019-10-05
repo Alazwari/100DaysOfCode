@@ -1,5 +1,3 @@
-#Day 043
-
 #Day 42
 
 class Car:
