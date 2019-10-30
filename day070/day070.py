@@ -14,4 +14,10 @@ mycrusor = mydb.cursor()
 mycrusor.execute('DESC customers')
 for x in mycrusor:
     print(x)
+mycrusor.execute('SELECT DATABASE()')
+for x in mycrusor:
+    print(x)
+mycrusor.execute('SHOW DATABASES')
+for x in mycrusor:
+    print(x)
 
