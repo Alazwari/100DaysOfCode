@@ -1,4 +1,4 @@
-# Day 71
+# Day 72
 import mysql.connector
 
 mydb = mysql.connector.connect(
