@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:700'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="todo" class="panel">
+	<h2 class="panel-title">Tasks</h2>
+
+	<!-- form -->
+	<form action="" method="POST">
+		<input type="text" class="form-control" placeholder="What's your next task ... " aria-label="Recipient's username" aria-describedby="button-addon2">
+		<button class="btn btn-primary btn-lg btn-block" type="button" id="button-addon2">Add Task</button>
+	</form>
+	<!-- form -->
+
+
+	<div class="panel-content">
+		<form>
+			<fieldset>
+				<ul class="tasks">
+					<li class="task">
+						<input type="checkbox" name="todo-tasks" id="task1" checked="checked" />
+						<label for="task1">Code in Python<span class="line-through"></span></label>
+					</li>
+					<li class="task">
+						<input type="checkbox" name="todo-tasks" id="task2" checked="checked" />
+						<label for="task2">App in Django<span class="line-through"></span></label>
+					</li>
+					<li class="task">
+						<input type="checkbox" name="todo-tasks" id="task3" />
+						<label for="task3">Tic Tak Toe App<span class="line-through"></span></label>
+					</li>
+					<li class="task">
+						<input type="checkbox" name="todo-tasks" id="task4" />
+						<label for="task4">Javascript course<span class="line-through"></span></label>
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
